@@ -1,4 +1,4 @@
-# controlgym 
+# Globally Optimal Policy Gradient Algorithms for Reinforcement Learning with PID Control Policies
 [![PyPI version](https://badge.fury.io/py/controlgym.svg)](https://pypi.org/project/controlgym/)
 
 ## Description 
