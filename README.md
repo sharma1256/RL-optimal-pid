@@ -12,9 +12,12 @@ The model-based  `PG4PID` and model-free `PG4PI` policy gradient algorithm for t
 
 Experiments
 1. Reward Bands : Figure 1
+   
 	a) PG4PI_reward_band.py
-		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`\\
-		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`\\
+
+		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
+		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
+
 	b) PG4PID_reward_band.py
 		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
 		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
@@ -25,7 +28,7 @@ Experiments
 			'mdl_bld_rea.npy and mdl_free_rea.npy' AND rea related plotting
 	c) In 'ppo-benchmark folder', Run trial-stat-run.py
 	
-2. 	Tracking (Error) Performance and State Trajectories: Figures 2 and 3
+3. 	Tracking (Error) Performance and State Trajectories: Figures 2 and 3
 	a) PG4PI.py
 		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
 		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
@@ -33,7 +36,7 @@ Experiments
 		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
 		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
 		
-3. 	Ablation Studies: Figure 4
+4. 	Ablation Studies: Figure 4
 	a) Small Variances - Run PG4PI_ablation_small_variance.py
 		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
 		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
@@ -41,11 +44,11 @@ Experiments
 		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
 		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
 		
-4.  Model Free Policy Gradient LQR vs. PG4PI: Figure 5
+5.  Model Free Policy Gradient LQR vs. PG4PI: Figure 5
 	a) Run Model_free_LQR_vs_PG4PI.py
 		i) For lah environment : Set flag lah = 1, rea =0; Uncomment from `'start lah' to 'end lah'` AND Comment from `'start rea' to 'end rea'`
 		ii) For rea environment : Set flag lah = 0, rea =1; Uncomment from `'start rea' to 'end rea'` AND Comment from `'start lah' to 'end lah'`
 
-5.  Fragility of LQR vs PG4PI: Figure 6
+6.  Fragility of LQR vs PG4PI: Figure 6
 	a) LQR Fragility - Run LQR_fragility.py
 	b) PG4PI Fragility - Run PID_fragility.py
