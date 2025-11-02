@@ -9,5 +9,8 @@ The model-based  `PG4PID` and model-free `PG4PI` policy gradient algorithm for t
 <p align="center">
   <img src="figures/gallery.jpeg" alt="" width="700px">
 </p>
+Spceifically, this repo contains the following
+1. Optimal PID RL algorithms 'PG4PID' and 'PG4PI'
+2. LQR benchmarks
+3. PPO benchmark
 
-More details will on this repository will be available soon.
