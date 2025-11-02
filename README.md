@@ -9,9 +9,13 @@ This repository provides the framework used to conduct the experiments for our p
   <img src="figures/gallery.jpeg" alt="" width="700px">
 </p>
 Spceifically, this repo contains the following:
+
 1) RL with PID policy
+
 2) LQR benchmarks
+
 3) PPO benchmark
+ 
 4) Instructions for reproduce each of the experiments in the paper
 
 The files 'PG4PID.py' and 'PG4PI.py' contains the model-based  `PG4PID` and model-free `PG4PI` policy gradient algorithm for tuning Optimal Proportional-integral-derivative (PID) controller, implemented on the LA University Hospital `lah` and the Chemical Reactor `rea` environemnt from `controlgym` suite of environments.
