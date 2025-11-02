@@ -8,13 +8,10 @@ This repository provides the framework used to conduct the experiments for our p
 <p align="center">
   <img src="figures/gallery.jpeg" alt="" width="700px">
 </p>
-Spceifically, this repo contains the following:
-
-1) RL with PID policy
-
-2) LQR benchmarks
-
-3) PPO benchmark
+Spceifically, this repo contains the following:\\
+  1) RL with PID policy\\
+  2) LQR benchmarks\\
+  3) PPO benchmark\\
  
 4) Instructions for reproduce each of the experiments in the paper
 
